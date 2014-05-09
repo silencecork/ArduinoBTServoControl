@@ -33,7 +33,7 @@ void loop() {
       return;
     }
     servo.write(degree);
+    blueToothSerial.println(degree);
   }
   delay(15);
 }
-
